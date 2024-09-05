@@ -346,6 +346,7 @@ $(document).ready(function () {
 });
 
 function restart() {
+  score = 0;
   NewLine(logo, false);
   accountA = data[Math.floor(Math.random() * data.length)];
   accountB = data[Math.floor(Math.random() * data.length)];
